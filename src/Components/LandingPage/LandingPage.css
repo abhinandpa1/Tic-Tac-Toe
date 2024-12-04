@@ -1,0 +1,68 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #111; /* Dark background */
+    color: #fff; /* White text */
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.home-title {
+    font-size: 3rem;
+    color: #ff2a68; /* Spider-Man red */
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.home-description {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+    color: #ff6f61; /* Lighter red */
+}
+
+.section {
+    background-color: #1c1c1c; /* Dark grey for the section background */
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    width: 80%;
+    max-width: 600px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #ff2a68; /* Spider-Man red */
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.rules-list {
+    list-style-type: none;
+    padding-left: 0;
+    color: #f0f0f0;
+}
+
+.rules-list li {
+    font-size: 1.1rem;
+    margin: 10px 0;
+}
+
+.start-button {
+    background-color: #ff2a68; /* Spider-Man red */
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 20px;
+}
+
+.start-button:hover {
+    background-color: #e10045; /* Darker red on hover */
+}

@@ -1,0 +1,73 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #121212; /* Dark background */
+    border: 5px dashed #ff2a68; /* Spider-Man red */
+}
+
+.title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #ffcc29; /* Yellow color for the title */
+    text-shadow: 2px 2px #ff2a68; /* Spider-Man red text shadow */
+}
+
+.title img {
+    width: 28px;
+    height: 28px;
+    vertical-align: middle;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 120px);
+    grid-template-rows: repeat(3, 120px);
+    gap: 8px;
+}
+
+.boxes {
+    width: 120px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #202020; /* Dark background for the boxes */
+    border: 4px solid #ff2a68; /* Spider-Man red border */
+    border-radius: 12px;
+    cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+.boxes:hover {
+    background-color: #ffcc29; /* Yellow color on hover */
+    transform: rotate(5deg);
+}
+
+.boxes img {
+    width: 80%;
+    height: auto;
+}
+
+.reset {
+    margin-top: 20px;
+    padding: 12px 24px;
+    font-size: 1.2rem;
+    color: #ffffff;
+    background-color: #ff2a68; /* Spider-Man red background */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.2s ease-in-out;
+}
+
+.reset:hover {
+    background-color: #d45079; /* Darker shade of red on hover */
+    transform: scale(1.1);
+}
+
